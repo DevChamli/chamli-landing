@@ -1,5 +1,6 @@
 {
-  "public": "public",
+  "public": true,   ✅ // Correct: public should be boolean (true or false)
+
   "routes": [
     { "src": "/(.*)", "dest": "/public/index.html" }
   ]
