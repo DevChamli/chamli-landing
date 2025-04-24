@@ -18,24 +18,12 @@
     <h1>Meet <span>Chamli</span></h1>
     <p class="subtitle">Your new multilingual travel buddy. Offline, helpful, and smarter than ever.</p>
     
-    <div class="form-wrapper">
-      <input type="email" placeholder="Enter your email" class="email-input" id="email">
-      <button class="notify-btn" onclick="notifyUser()">Notify Me</button>
-    </div>
-
     <div class="socials"><span>🐦</span><span>📸</span><span>🎵</span></div>
     <p class="footer">✨ Something beautiful is on its way. Stay tuned!</p>
   </div>
+git add .
+git commit -m "Added new features"
+git push origin main
 
-  <script>
-    function notifyUser() {
-      const email = document.getElementById('email').value;
-      if (email) {
-        alert('Thank you! We\'ll let you know at: ' + email);
-      } else {
-        alert('Please enter a valid email address.');
-      }
-    }
-  </script>
 </body>
 </html>
