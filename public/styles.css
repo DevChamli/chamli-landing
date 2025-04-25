@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #0d1117;
+  background: #020909;
   overflow: hidden;
 }
 
@@ -21,7 +21,6 @@ body {
   height: auto;
   width: auto;
   max-width: 100%;
-  filter: brightness(0.6);
   z-index: 1;
 }
 
