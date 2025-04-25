@@ -17,7 +17,7 @@ body {
 }
 
 .overlay h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 2rem;
   color: white;
@@ -25,7 +25,7 @@ body {
 }
 
 .background-image {
-  max-height: 50vh;
+  max-height: 45vh;
   height: auto;
   width: auto;
   max-width: 100%;
@@ -42,8 +42,8 @@ body {
 }
 
 .social-icons img {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   filter: invert(1);
   transition: transform 0.2s ease;
 }
