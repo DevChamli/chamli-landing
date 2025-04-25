@@ -1,72 +1,71 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #000506; /* darker than #020909 */
-  overflow-x: hidden;
-  overflow-y: auto;
+  background: #000506;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 2rem 1rem;
+  justify-content: center;
 }
 
 .overlay h1 {
   font-size: 3rem;
   font-weight: 600;
-  margin-bottom: 2rem;
-  color: white;
-  z-index: 2;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .background-image {
-  max-height: 45vh;
+  width: 280px;
   height: auto;
-  width: auto;
-  max-width: 100%;
-  margin-bottom: 2rem;
-  z-index: 1;
+  max-height: 45vh;
+  margin-bottom: 1.5rem;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 28px;
   flex-wrap: wrap;
-  margin-top: 1rem;
 }
 
 .social-icons img {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   filter: invert(1);
   transition: transform 0.2s ease;
 }
 
 .social-icons a:hover img {
-  transform: scale(1.25);
+  transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
   .overlay h1 {
     font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .background-image {
+    width: 200px;
+    margin-bottom: 1rem;
   }
 
   .social-icons img {
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
   }
 
   .social-icons {
     gap: 20px;
-  }
-
-  .background-image {
-    max-height: 60vh;
   }
 }
