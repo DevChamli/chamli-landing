@@ -17,9 +17,9 @@ body {
 }
 
 .overlay h1 {
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: white;
   z-index: 2;
 }
@@ -29,7 +29,7 @@ body {
   height: auto;
   width: auto;
   max-width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   z-index: 1;
 }
 
