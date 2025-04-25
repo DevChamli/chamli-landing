@@ -25,7 +25,7 @@ body {
 }
 
 .background-image {
-  width: 280px;
+  width: auto;
   height: auto;
   max-height: 45vh;
   margin-bottom: 1.5rem;
