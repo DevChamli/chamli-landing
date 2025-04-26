@@ -22,7 +22,6 @@ body {
   height: 80%;
   display: flex;
   justify-content: center;
-  object-fit: cover;
   filter: brightness(0.5);
 }
 
