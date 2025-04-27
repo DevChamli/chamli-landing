@@ -52,6 +52,10 @@ body {
   transition: transform 0.2s ease;
 }
 
+.download-text a:hover img {
+  transform: scale(1.2);
+}
+
 .social-footer {
   position: fixed;
   bottom: 2rem;
